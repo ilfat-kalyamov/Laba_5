@@ -32,4 +32,3 @@ const Matrix4f& Pipeline::GetWVPTrans()
     m_WVPtransformation = m_VPTtransformation * m_WorldTransformation;
     return m_WVPtransformation;
 }
-
